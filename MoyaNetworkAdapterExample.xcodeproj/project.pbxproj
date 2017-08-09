@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DF6F38D1F3B3A9D00596E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6F38C1F3B3A9D00596E7F /* AppDelegate.swift */; };
+		9DF6F38F1F3B3A9D00596E7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6F38E1F3B3A9D00596E7F /* ViewController.swift */; };
+		9DF6F3921F3B3A9D00596E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6F3901F3B3A9D00596E7F /* Main.storyboard */; };
+		9DF6F3941F3B3A9D00596E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6F3931F3B3A9D00596E7F /* Assets.xcassets */; };
+		9DF6F3971F3B3A9D00596E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF6F3951F3B3A9D00596E7F /* LaunchScreen.storyboard */; };
+		9DF6F3A21F3B3A9D00596E7F /* MoyaNetworkAdapterExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6F3A11F3B3A9D00596E7F /* MoyaNetworkAdapterExampleTests.swift */; };
+		9DF6F3AD1F3B3A9D00596E7F /* MoyaNetworkAdapterExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6F3AC1F3B3A9D00596E7F /* MoyaNetworkAdapterExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DF6F39E1F3B3A9D00596E7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DF6F3811F3B3A9D00596E7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DF6F3881F3B3A9D00596E7F;
+			remoteInfo = MoyaNetworkAdapterExample;
+		};
+		9DF6F3A91F3B3A9D00596E7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DF6F3811F3B3A9D00596E7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DF6F3881F3B3A9D00596E7F;
+			remoteInfo = MoyaNetworkAdapterExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DF6F3891F3B3A9D00596E7F /* MoyaNetworkAdapterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaNetworkAdapterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF6F38C1F3B3A9D00596E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DF6F38E1F3B3A9D00596E7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DF6F3911F3B3A9D00596E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DF6F3931F3B3A9D00596E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DF6F3961F3B3A9D00596E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DF6F3981F3B3A9D00596E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF6F39D1F3B3A9D00596E7F /* MoyaNetworkAdapterExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoyaNetworkAdapterExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF6F3A11F3B3A9D00596E7F /* MoyaNetworkAdapterExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaNetworkAdapterExampleTests.swift; sourceTree = "<group>"; };
+		9DF6F3A31F3B3A9D00596E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF6F3A81F3B3A9D00596E7F /* MoyaNetworkAdapterExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoyaNetworkAdapterExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF6F3AC1F3B3A9D00596E7F /* MoyaNetworkAdapterExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaNetworkAdapterExampleUITests.swift; sourceTree = "<group>"; };
+		9DF6F3AE1F3B3A9D00596E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DF6F3861F3B3A9D00596E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF6F39A1F3B3A9D00596E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF6F3A51F3B3A9D00596E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DF6F3801F3B3A9D00596E7F = {
+			isa = PBXGroup;
+			children = (
+				9DF6F38B1F3B3A9D00596E7F /* MoyaNetworkAdapterExample */,
+				9DF6F3A01F3B3A9D00596E7F /* MoyaNetworkAdapterExampleTests */,
+				9DF6F3AB1F3B3A9D00596E7F /* MoyaNetworkAdapterExampleUITests */,
+				9DF6F38A1F3B3A9D00596E7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DF6F38A1F3B3A9D00596E7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6F3891F3B3A9D00596E7F /* MoyaNetworkAdapterExample.app */,
+				9DF6F39D1F3B3A9D00596E7F /* MoyaNetworkAdapterExampleTests.xctest */,
+				9DF6F3A81F3B3A9D00596E7F /* MoyaNetworkAdapterExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DF6F38B1F3B3A9D00596E7F /* MoyaNetworkAdapterExample */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6F38C1F3B3A9D00596E7F /* AppDelegate.swift */,
+				9DF6F38E1F3B3A9D00596E7F /* ViewController.swift */,
+				9DF6F3901F3B3A9D00596E7F /* Main.storyboard */,
+				9DF6F3931F3B3A9D00596E7F /* Assets.xcassets */,
+				9DF6F3951F3B3A9D00596E7F /* LaunchScreen.storyboard */,
+				9DF6F3981F3B3A9D00596E7F /* Info.plist */,
+			);
+			path = MoyaNetworkAdapterExample;
+			sourceTree = "<group>";
+		};
+		9DF6F3A01F3B3A9D00596E7F /* MoyaNetworkAdapterExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6F3A11F3B3A9D00596E7F /* MoyaNetworkAdapterExampleTests.swift */,
+				9DF6F3A31F3B3A9D00596E7F /* Info.plist */,
+			);
+			path = MoyaNetworkAdapterExampleTests;
+			sourceTree = "<group>";
+		};
+		9DF6F3AB1F3B3A9D00596E7F /* MoyaNetworkAdapterExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6F3AC1F3B3A9D00596E7F /* MoyaNetworkAdapterExampleUITests.swift */,
+				9DF6F3AE1F3B3A9D00596E7F /* Info.plist */,
+			);
+			path = MoyaNetworkAdapterExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DF6F3881F3B3A9D00596E7F /* MoyaNetworkAdapterExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF6F3B11F3B3A9D00596E7F /* Build configuration list for PBXNativeTarget "MoyaNetworkAdapterExample" */;
+			buildPhases = (
+				9DF6F3851F3B3A9D00596E7F /* Sources */,
+				9DF6F3861F3B3A9D00596E7F /* Frameworks */,
+				9DF6F3871F3B3A9D00596E7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoyaNetworkAdapterExample;
+			productName = MoyaNetworkAdapterExample;
+			productReference = 9DF6F3891F3B3A9D00596E7F /* MoyaNetworkAdapterExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DF6F39C1F3B3A9D00596E7F /* MoyaNetworkAdapterExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF6F3B41F3B3A9D00596E7F /* Build configuration list for PBXNativeTarget "MoyaNetworkAdapterExampleTests" */;
+			buildPhases = (
+				9DF6F3991F3B3A9D00596E7F /* Sources */,
+				9DF6F39A1F3B3A9D00596E7F /* Frameworks */,
+				9DF6F39B1F3B3A9D00596E7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DF6F39F1F3B3A9D00596E7F /* PBXTargetDependency */,
+			);
+			name = MoyaNetworkAdapterExampleTests;
+			productName = MoyaNetworkAdapterExampleTests;
+			productReference = 9DF6F39D1F3B3A9D00596E7F /* MoyaNetworkAdapterExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DF6F3A71F3B3A9D00596E7F /* MoyaNetworkAdapterExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF6F3B71F3B3A9D00596E7F /* Build configuration list for PBXNativeTarget "MoyaNetworkAdapterExampleUITests" */;
+			buildPhases = (
+				9DF6F3A41F3B3A9D00596E7F /* Sources */,
+				9DF6F3A51F3B3A9D00596E7F /* Frameworks */,
+				9DF6F3A61F3B3A9D00596E7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DF6F3AA1F3B3A9D00596E7F /* PBXTargetDependency */,
+			);
+			name = MoyaNetworkAdapterExampleUITests;
+			productName = MoyaNetworkAdapterExampleUITests;
+			productReference = 9DF6F3A81F3B3A9D00596E7F /* MoyaNetworkAdapterExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DF6F3811F3B3A9D00596E7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sierra 2";
+				TargetAttributes = {
+					9DF6F3881F3B3A9D00596E7F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					9DF6F39C1F3B3A9D00596E7F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9DF6F3881F3B3A9D00596E7F;
+					};
+					9DF6F3A71F3B3A9D00596E7F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9DF6F3881F3B3A9D00596E7F;
+					};
+				};
+			};
+			buildConfigurationList = 9DF6F3841F3B3A9D00596E7F /* Build configuration list for PBXProject "MoyaNetworkAdapterExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DF6F3801F3B3A9D00596E7F;
+			productRefGroup = 9DF6F38A1F3B3A9D00596E7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DF6F3881F3B3A9D00596E7F /* MoyaNetworkAdapterExample */,
+				9DF6F39C1F3B3A9D00596E7F /* MoyaNetworkAdapterExampleTests */,
+				9DF6F3A71F3B3A9D00596E7F /* MoyaNetworkAdapterExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DF6F3871F3B3A9D00596E7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF6F3971F3B3A9D00596E7F /* LaunchScreen.storyboard in Resources */,
+				9DF6F3941F3B3A9D00596E7F /* Assets.xcassets in Resources */,
+				9DF6F3921F3B3A9D00596E7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF6F39B1F3B3A9D00596E7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF6F3A61F3B3A9D00596E7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DF6F3851F3B3A9D00596E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF6F38F1F3B3A9D00596E7F /* ViewController.swift in Sources */,
+				9DF6F38D1F3B3A9D00596E7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF6F3991F3B3A9D00596E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF6F3A21F3B3A9D00596E7F /* MoyaNetworkAdapterExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF6F3A41F3B3A9D00596E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF6F3AD1F3B3A9D00596E7F /* MoyaNetworkAdapterExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DF6F39F1F3B3A9D00596E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DF6F3881F3B3A9D00596E7F /* MoyaNetworkAdapterExample */;
+			targetProxy = 9DF6F39E1F3B3A9D00596E7F /* PBXContainerItemProxy */;
+		};
+		9DF6F3AA1F3B3A9D00596E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DF6F3881F3B3A9D00596E7F /* MoyaNetworkAdapterExample */;
+			targetProxy = 9DF6F3A91F3B3A9D00596E7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DF6F3901F3B3A9D00596E7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DF6F3911F3B3A9D00596E7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DF6F3951F3B3A9D00596E7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DF6F3961F3B3A9D00596E7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DF6F3AF1F3B3A9D00596E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DF6F3B01F3B3A9D00596E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DF6F3B21F3B3A9D00596E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoyaNetworkAdapterExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-brew.MoyaNetworkAdapterExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9DF6F3B31F3B3A9D00596E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoyaNetworkAdapterExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-brew.MoyaNetworkAdapterExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9DF6F3B51F3B3A9D00596E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoyaNetworkAdapterExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-brew.MoyaNetworkAdapterExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoyaNetworkAdapterExample.app/MoyaNetworkAdapterExample";
+			};
+			name = Debug;
+		};
+		9DF6F3B61F3B3A9D00596E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoyaNetworkAdapterExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-brew.MoyaNetworkAdapterExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoyaNetworkAdapterExample.app/MoyaNetworkAdapterExample";
+			};
+			name = Release;
+		};
+		9DF6F3B81F3B3A9D00596E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MoyaNetworkAdapterExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-brew.MoyaNetworkAdapterExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MoyaNetworkAdapterExample;
+			};
+			name = Debug;
+		};
+		9DF6F3B91F3B3A9D00596E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MoyaNetworkAdapterExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code-brew.MoyaNetworkAdapterExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MoyaNetworkAdapterExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DF6F3841F3B3A9D00596E7F /* Build configuration list for PBXProject "MoyaNetworkAdapterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF6F3AF1F3B3A9D00596E7F /* Debug */,
+				9DF6F3B01F3B3A9D00596E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF6F3B11F3B3A9D00596E7F /* Build configuration list for PBXNativeTarget "MoyaNetworkAdapterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF6F3B21F3B3A9D00596E7F /* Debug */,
+				9DF6F3B31F3B3A9D00596E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DF6F3B41F3B3A9D00596E7F /* Build configuration list for PBXNativeTarget "MoyaNetworkAdapterExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF6F3B51F3B3A9D00596E7F /* Debug */,
+				9DF6F3B61F3B3A9D00596E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DF6F3B71F3B3A9D00596E7F /* Build configuration list for PBXNativeTarget "MoyaNetworkAdapterExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF6F3B81F3B3A9D00596E7F /* Debug */,
+				9DF6F3B91F3B3A9D00596E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DF6F3811F3B3A9D00596E7F /* Project object */;
+}
