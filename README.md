@@ -5,5 +5,7 @@ This is sample project for APIManger or NetworkAdapter using Moya https://github
 in this project SwiftyJSON is also used to map JSON Data to Model Class https://github.com/SwiftyJSON/SwiftyJSON
 
 Pods to be installed:
+
 pod 'Moya'
+
 pod 'SwiftyJSON'
