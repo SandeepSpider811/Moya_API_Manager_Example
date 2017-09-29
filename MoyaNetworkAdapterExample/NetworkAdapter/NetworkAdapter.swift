@@ -3,7 +3,7 @@
 //  MayoNetworkLayer
 //
 //  Created by Sierra 2 on 08/08/17.
-//  Copyright © 2017 Sierra 2. All rights reserved.
+//  Copyright © 2017 SandsHellCreations 2. All rights reserved.
 //
 
 import Foundation
